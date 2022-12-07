@@ -14,23 +14,31 @@
 /* span */
 .heart{
     position: absolute;
+	font-size: 20px;
     padding: 10px;
     right: 0;
     top: 10px;
     background-color: white;
+	z-index: 3;
+}
+
+.heart:hover{
+	color: red;
 }
 
 .sconto{
     position: absolute;
     background-color: red;
 	padding: 5px;
-
+	z-index: 3;
 }
 
 .safe{
 	position: absolute;
     background-color: green;
 	padding: 5px;
+	z-index: 3;
+
 }
 
 .left1{
