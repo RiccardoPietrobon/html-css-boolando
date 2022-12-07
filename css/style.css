@@ -45,21 +45,45 @@ li{
     flex-wrap: wrap;
     justify-content: space-between;
     column-gap: 30px;
-    flex-direction: column;
 }
 
 .col{
     width: 30%;
 }
 
-.model{
+.col-top{
     position: relative;
 }
 
-/* span */
-.heart{
+.col-top-img{
+    display: inline-block;
+    position: relative;  
+}
+
+.col-top-img .img-top{
+    display: none;
     position: absolute;
-    padding: 10px;
-    right: 0;
-    top: 10px;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+
+.col-top-img:hover .img-top{
+    display: inline;
+}
+/* didascalia */
+figcaption>*{
+    font-size: 15px;
+}
+
+h1{
+    font-weight: bolder;
+}
+
+.best-price{
+    color: red;
+}
+
+.bad-price{
+    text-decoration: line-through;
 }
