@@ -21,4 +21,11 @@ video {
 	max-width: 100%;
 }
 
-a 
+a{
+	color: white;
+	text-decoration: none;
+}
+
+a:hover{
+	cursor: pointer;
+}

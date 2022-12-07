@@ -1,0 +1,65 @@
+/* header */
+header{
+    background-color: orange;
+    color: white;
+    width: 100%;
+    height: 5rem;
+    display: flex;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+.links,
+.icons{
+    flex-basis: 20%;
+}
+
+.logo{
+    flex-grow: 1;
+    text-align: center;
+}
+
+.logo>img{
+    height: 2rem;
+}
+
+li{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.icons{
+    text-align: right;
+}
+
+/* main */
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 30px;
+    flex-direction: column;
+}
+
+.col{
+    width: 30%;
+}
+
+.model{
+    position: relative;
+}
+
+/* span */
+.heart{
+    position: absolute;
+    padding: 10px;
+    right: 0;
+    top: 10px;
+}
