@@ -89,3 +89,19 @@ h1{
 .bad-price{
     text-decoration: line-through;
 }
+/* footer */
+footer{
+    color: white;
+    background-color: #261e1e;
+}
+
+.inside-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    line-height: 30px;
+}
+
+.privacy>p{
+    font-size: 15px;
+}
