@@ -42,6 +42,9 @@ li{
 }
 
 /* main */
+main{
+    margin-top: 100px;
+}
 
 .row{
     display: flex;
